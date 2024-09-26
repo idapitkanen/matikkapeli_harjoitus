@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet"/>
     <title>Matikkapeli</title>
 </head>
 <body>
-    
+    <div id="container">
+        <h3>Math game</h3>
+        <form>
+            <div>
+                <output id="num1"></output> +
+                <output id="num2"></output> = 
+                <input type="number"/>
+            </div> 
+            <div>
+                <button type="button" id="calculate">Answer</button>
+            </div>
+            <div>
+                <p>Correct answers <output id="correctCount"></output></p>
+                <p>Incorrect answers <output id="incorrectCount"></output></p>
+            </div>
+        </form>
+        <div>
+    </div>
+    <script src="./js/functions.js"></script>
 </body>
 </html>
